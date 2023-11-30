@@ -560,7 +560,7 @@ if __name__ == '__main__':
     model = Model()
     result=model.test()
     print(result["kp2d_mpjpe"])
-    print(result["kp3d_mpjpe"])
+    print(result["kp3d_mpjpe"])  #This is the value used in the paper
     print(result["kp3d_mpjpe_aligned"])
     # model.train()
 

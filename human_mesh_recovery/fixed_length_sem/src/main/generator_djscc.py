@@ -236,7 +236,8 @@ class Generator(tf.keras.Model):
         self.config = Config()
 
         self.enc_shape = self.config.ENCODER_INPUT_SHAPE
-        self.resnet50V2 = ResNet50V2(include_top=False, weights='imagenet', input_shape=self.enc_shape, pooling='avg')
+        self.resnet50V2 = ResNet50V2(include_top=False, weights='imagenet', input_shape=self.enc_shape, pooling='avg')   ##For testing, you can set the weights='None' to avoid the model downloading process
+
         self._set_resnet_arg_scope()
         self.resnet50V2.summary()
         self.resnet50V2.trainable = False
