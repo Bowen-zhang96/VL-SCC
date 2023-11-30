@@ -2,4 +2,4 @@ Download all the files in this [folder](https://drive.google.com/drive/folders/1
 
 These are the files related to the SMPL model 
 
-The src/ in different folders is the same, only need to download once
+The models/ in different folders is the same, only need to download once
