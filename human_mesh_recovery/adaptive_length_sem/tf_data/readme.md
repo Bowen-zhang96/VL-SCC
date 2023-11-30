@@ -2,3 +2,5 @@ Download all the files in this [folder](https://drive.google.com/drive/folders/1
 
 These are the processed tf datasets for training and testing
 
+The tf_data/ in different folders is the same, only need to download once
+
