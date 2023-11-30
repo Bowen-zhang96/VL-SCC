@@ -10,7 +10,7 @@ Apologize first that as I do not have a coding habit, some parameters need to be
     print(result["kp2d_mpjpe"])
     print(result["kp3d_mpjpe"])  #This is the value used in the paper
     print(result["kp3d_mpjpe_aligned"])
-    # model.train()
+    '# model.train()'
     
  3. Set the channel type and SNR value in the line 244 of generator_djscc.py
 
