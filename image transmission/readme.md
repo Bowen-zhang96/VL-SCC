@@ -3,7 +3,7 @@ To test different pre-trained models under /tmp, pls change the dictionary path 
 <br>
 Suppose c is the value of 'bit_mean' in the printed results. The SPP for data is calculated by c/(16x2).
 <br>
-Note that the BPP for mask is 4 bit quantization /(16x16)=0.015625, therefore the SPP for mask is 0.015625/log2(1+10)=0.004516.
+Note that the BPP for mask is 4 bit quantization /(16x16)=0.015625, therefore the SPP for mask in 10dB AWGN channel is 0.015625/log2(1+10)=0.004516.
 <br>
 The total SPP is c/(16x2)+0.004516.
 
