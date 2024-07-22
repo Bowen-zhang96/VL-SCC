@@ -1,9 +1,9 @@
 ## VL-SCC
 This is the official code for the experiments in 'Semantic Communications with Variable-Length Coding for Extended Reality'. [paper](https://ieeexplore.ieee.org/document/10198383)
 
-**Update April 2024**. I have uploaded the training/testing codes for both experiments.
+**Update April 2024**. We have uploaded the training/testing codes for both experiments.
 <br>
-**Update 22 July 2024**. I have uploaded the training details for image experiment.
+**Update 22 July 2024**. We have uploaded the training details for image experiment.
 
 
 
