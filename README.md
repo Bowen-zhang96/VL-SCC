@@ -5,8 +5,7 @@ This is the official code for the experiments in 'Semantic Communications with V
 <br>
 **Update 22 July 2024**. I have uploaded the training details for both experiments.
 
-## Training Details
-For the image transmission experiment, 
+
 
 ## Acknowledge
 The human mesh recovery experiment is developed based on this [project](https://github.com/russoale/hmr2.0)
