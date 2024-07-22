@@ -1,9 +1,9 @@
 ## Testing 
 To test different pre-trained models under /tmp, pls change the dictionary path in line 1644/1650 to different paths.
 <br>
-Suppose c is the value of 'bit_mean' in the printed results. The SPP for data is calculated by c/(16*2).
-Note that the BPP for mask is 4 bit quantization /(16*16)=0.015625, therefore the SPP for mask is 0.015625/log2(1+10)=0.004516
-The total SPP is c/(16*2)+0.004516
+Suppose c is the value of 'bit_mean' in the printed results. The SPP for data is calculated by c/(16x2).
+Note that the BPP for mask is 4 bit quantization /(16x16)=0.015625, therefore the SPP for mask is 0.015625/log2(1+10)=0.004516
+The total SPP is c/(16x2)+0.004516
 
 ## Training details
 The image transmission experiments can be run from scratch. To enable the training mode, pls make the following changes:
