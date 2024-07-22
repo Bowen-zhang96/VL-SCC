@@ -3,7 +3,7 @@ This is the official code for the experiments in 'Semantic Communications with V
 
 **Update April 2024**. I have uploaded the training/testing codes for both experiments.
 <br>
-**Update 22 July 2024**. I have uploaded the training details for both experiments.
+**Update 22 July 2024**. I have uploaded the training details for image experiment.
 
 
 
