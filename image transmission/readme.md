@@ -14,12 +14,16 @@ The image transmission experiments can be run from scratch. To enable the traini
 3. Adjust the parameter in line 1237 to adjust the average symbol length.
 
 <b>Getting one point</b>
+<br>
 In my experiment, I first set the parameter in line 1237 to a large value (maybe 2.1) to obtain spp=0.125. 
 During this process, I first train for 600 epochs, and then I reduce the learning rate of RAN to 1e-6 and train for another 600 epochs. 
 <br>
 To reduce the learning rate, change line 1394 to learning_rate=0.01*args.learn_rate. 
 <br>
 To continue training for a reduced learning rate, simply pass the path of the pre-trained model to line 1753.
+
+<b>Getting line</b>
+<br>
 
 After obtaining spp=0.125, change the parameter in line 1237 to adjust the average symbol length. 
 <br>
